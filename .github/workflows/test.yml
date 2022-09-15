@@ -1,0 +1,10 @@
+ name: Issue assigment
+ 
+ on:
+    issues:
+       types:[opened]
+       
+jobs:
+    auto-assign:
+       runs-on: ubuntu-latest
+ 
